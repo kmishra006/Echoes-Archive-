@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+backend/.venv/
+.pytest_cache/
+
+# Local archive data: private memories must never be committed
+backend/data/
+*.db
+*.db-wal
+*.db-shm
+
+# Node / Vite
+node_modules/
+frontend/dist/
+frontend/node_modules/
+*.local
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Logs and OS noise
+*.log
+.DS_Store
+Thumbs.db
